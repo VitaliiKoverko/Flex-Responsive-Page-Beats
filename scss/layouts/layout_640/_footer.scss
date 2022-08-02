@@ -1,0 +1,40 @@
+@media only screen and (min-width: 660px) {
+    .footer-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .nav-box {
+        width: 81%;
+        margin-top: 30px;
+    }
+}
+
+
+.footer-box__logo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-end__p {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+
+.social-top {
+    display: flex;
+    flex-direction: column;
+    max-width: 1253px;
+    align-items: center;
+
+    margin-bottom: 35px;
+    margin-top: -20px;
+}
+
+.social-title {
+    margin-right: 55px;
+}

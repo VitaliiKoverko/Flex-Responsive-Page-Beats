@@ -1,0 +1,118 @@
+.block1-top {
+    background-image: url(../../../i/background_header.png);
+    width: 100%;
+    height: 537px;
+}
+
+.block1-box {
+    &__info {
+        max-width: 508px;
+        padding-left: rem(56px);
+    }
+
+    &__beetmap {
+        width: 636px;
+        height: 636px;
+    }
+
+    &__h {
+        font-size: rem(40px);
+
+    }
+
+}
+
+.btn-box {
+    margin-top: rem(40px);
+
+    @include e(span) {
+        font-size: rem(40px);
+    }
+
+    &__buy-now {
+        border: none;
+        margin-left: 20px;
+        background: $colorBtnYellow;
+        padding: 11px;
+        width: 145px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+//===============block2========================
+.img-pill {
+    margin-top: -55px;
+}
+
+.block2-box {
+    &__info {
+        max-width: 508px;
+        padding-left: rem(56px);
+    }
+
+    &__h {
+        font-size: rem(40px);
+
+    }
+
+}
+
+sup {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.btn-box__buy-now_black {
+    border: none;
+    margin-left: 20px;
+    background: $black;
+    color: $white;
+    padding: 11px;
+    width: 145px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+//===============block3========================
+
+.block3-box {
+
+    &__h {
+        font-size: rem(40px);
+        margin-bottom: 35px;
+
+    }
+
+}
+
+.btn-box {
+    margin-top: 70px;
+}
+
+
+//===============block4========================
+
+.block4-box {
+
+    &__h {
+        font-size: rem(40px);
+        margin-bottom: 35px;
+
+    }
+
+}
+
+.btn-box {
+    margin-top: 70px;
+}
+
+.flex1-box {
+    width: 100%;
+    max-width: 354px;
+    margin-top: 30px;
+}

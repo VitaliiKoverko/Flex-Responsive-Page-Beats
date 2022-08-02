@@ -1,0 +1,81 @@
+.form-top {
+    background-color: $colorBgFlex;
+    max-width: 1223px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-box {
+    margin: 15px 0;
+    padding-left: -15px;
+    padding-right: -15px;
+}
+
+.form-info {
+    width: 273px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-info__title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.form-info__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form__btn-register {
+    border: none;
+    background: $colorBtnYellow;
+    padding: 11px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.form__btn-box {
+    margin: 18px 20px 0 20px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form__group_control {
+    border: 1px solid $colorFormBorder;
+    padding: 11px;
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: 0;
+
+}
+
+.form__group {
+    display: flex;
+    justify-content: center;
+
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $colorFormBorder;
+}

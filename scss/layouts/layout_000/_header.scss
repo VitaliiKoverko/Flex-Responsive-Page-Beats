@@ -1,0 +1,36 @@
+.header-top {
+    background: $colorHeader;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1256px;
+    align-items: center;
+    color: $white;
+    margin: auto;
+    padding: 15px 36px 15px 27px;
+    margin-bottom: 0;
+
+    &__img {
+        width: 27px;
+        height: 27px;
+    }
+}
+
+.main-nav {
+    width: 172px;
+    display: flex;
+    justify-content: space-between;
+
+    &__main {
+        margin-bottom: 10px;
+    }
+
+    &__main-img {
+        width: 16px;
+        height: 12px;
+    }
+}
